@@ -1,0 +1,87 @@
+@font-face {
+    font-family: proxima;
+    src: url(../font/proxima_ssv/proximaNovaRegular.otf);
+}
+
+@font-face {
+    font-family: proxima;
+    src: url(../font/proxima_ssv/proximaNovaBold.otf);
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: proxima;
+    src: url(../font/proxima_ssv/proximaNovaThin.otf);
+    font-weight: thin;
+}
+
+html {
+    font-family: proxima;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+@keyframes bg-dots-anim {
+    0% {
+        background-position: 0;
+    }
+
+    100% {
+        background-position: 1440px;
+    }
+}
+
+@keyframes bg-rent-rotate {
+    0% {
+        transform: translate(-50%, -50%) rotate(0deg);
+    }
+
+    100% {
+        transform: translate(-50%, -50%) rotate(360deg);
+    }
+}
+
+@keyframes bg-rent-rotate-2 {
+    0% {
+        transform: translate(-50%, -50%) rotate(0deg);
+    }
+
+    100% {
+        transform: translate(-50%, -50%) rotate(360deg);
+    }
+}
+
+@keyframes bg-rent-rotate-reverse {
+    0% {
+        transform: translate(-50%, -50%) rotate(0deg);
+    }
+
+    100% {
+        transform: translate(-50%, -50%) rotate(-360deg);
+    }
+}
+
+@keyframes move-in {
+    0% {
+        transform: translate(-30%, -50%);
+    }
+
+    100% {
+        transform: translate(-50%, -50%);
+    }
+}
+
+@keyframes move-out {
+    0% {
+        transform: translate(-50%, -50%);
+    }
+
+    100% {
+        transform: translate(-30%, -50%);
+    }
+}
